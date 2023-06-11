@@ -1,0 +1,122 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+nav {
+  margin: 0 auto;
+  list-style-type: none;
+  padding: 5px 5px 5px 0px;
+  position: left;
+}
+
+header {
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+img {
+  margin: 10px;
+  width: 100%;
+}
+p {
+  padding: 10px 10px 5px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+  color: #63666A;
+  font-size: 18px;
+  width: 100%;
+}
+
+a:link { 
+  text-decoration: none;
+  color: #DE7E5D;
+  position: left;
+  padding-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.article-name {
+  font-size: 32px;
+  font-weight: 200;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+.continue {
+  font-family: 'Franklin Gothic Medium', 'Arial', Arial, sans-serif;
+  position: right;
+  padding-bottom: 20px;
+  text-align: right;
+  color: tomato;
+}
+
+.crumbs {
+  display: inline;
+  list-style-type: none;
+  list-style-position: left;
+}
+
+.date h2{
+  color: #A9A9A9;
+  font-size: 36px;
+  font-weight: 100;
+  font-family: Optima, sans-serif;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.drop-cap::first-letter {
+  -webkit-initial-letter: 4;
+          initial-letter: 4;
+  color: gray;
+  font-weight: bold;
+  margin-right: .75em;
+}
+
+.footer-nav li {
+  display: inline;
+  list-style-type: none;
+  list-style-position: left;
+  padding-right: 0px;
+  width: 5px;
+  ;
+}
+
+.footer-nav a {
+  padding: 0;
+  margin: 0;
+  color: #A9A9A9;
+}
+
+.footer-nav ul {
+  padding: 0;
+}
+
+.link:after {
+  content: '|';
+  padding: 0 5px;
+}
+.link::before {
+  padding: 0;
+}
+.page-header {
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight:100;
+}
+
+.page-header h1 {
+  font-weight: 200;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: tomato;
+  letter-spacing: 2px;
+}
+
+.page-header h2 {
+  font-weight: 100;
+  font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+}
