@@ -1,0 +1,90 @@
+body {
+    border-left: 5px solid;
+    border-left-color: lightgray;
+    min-height: 100%;
+    max-width: 1000px;
+    font-family: 'Raleway', sans-serif;
+    margin: auto 0;
+}
+
+header{
+     padding: 1rem 2rem;
+}
+
+main{
+    padding: 1rem 2rem;
+}
+
+h1{
+    color: tomato;
+    font-size: 3rem;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    font-size: 1.5rem;
+
+}
+
+.headnav{
+    justify-content: space-between;
+}
+
+.headnav a {
+    color: lightgray;
+}
+
+
+article{
+    margin-bottom: 4rem;
+    border-bottom: 1px solid;
+    padding: 2rem;
+}
+
+article a {
+    float: right;
+    text-align: right;
+    color: tomato;
+    text-decoration: none;
+
+}
+
+
+h3{
+    font-size: 2.5rem;
+    color: lightgray;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+p::first-letter {
+        font-size: 6rem;
+        font-weight: bold;
+        color: lightgray;
+        float: left;
+        padding: 1px 2px;
+        margin-right: 6px;
+}
+
+
+footer{
+    color: lightgray;
+    padding: 1rem 2rem;
+    
+}
+
+.footnav a {
+    font-size: 1.5rem;
+    font-size: 1rem;
+    color: tomato;
+    text-decoration: none;
+    
+}
+
