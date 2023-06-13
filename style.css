@@ -4,7 +4,7 @@ body {
     min-height: 100%;
     max-width: 1000px;
     font-family: 'Raleway', sans-serif;
-    margin: auto;
+    margin: auto 0;
 }
 
 header{
