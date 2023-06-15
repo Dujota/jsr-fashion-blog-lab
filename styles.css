@@ -11,8 +11,8 @@ header {
   font-family: 'Manrope', sans-serif;
 }
 
-h3{
-  font-family: 'Manrope', sans-serif;;
+h3 {
+  font-family: 'Manrope', sans-serif;
 }
 
 nav {
@@ -29,7 +29,7 @@ img {
 p {
   padding: 10px 10px 5px 10px;
   font-family: 'Manrope', sans-serif;
-  color: #63666A;
+  color: #63666a;
   width: 100%;
 }
 
@@ -42,7 +42,7 @@ ul {
 .article-name {
   font-size: 32px;
   font-weight: 200;
-  font-family:'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
   letter-spacing: 2px;
   padding: 0;
   margin: 0;
@@ -56,8 +56,8 @@ ul {
   color: tomato;
 }
 
-.date h2{
-  color: #A9A9A9;
+.date h2 {
+  color: #a9a9a9;
   font-size: 36px;
   font-weight: 100;
   font-family: 'Manrope', sans-serif;
@@ -67,16 +67,16 @@ ul {
 
 .drop-cap::first-letter {
   -webkit-initial-letter: 4;
-          initial-letter: 4;
+  initial-letter: 4;
   color: gray;
   font-weight: bold;
-  margin-right: .75em;
+  margin-right: 0.75em;
 }
 
 .footer-nav a {
   padding: 0;
   margin: 0;
-  color: #DE7E5D;
+  color: #de7e5d;
 }
 
 .footer-nav li {
@@ -85,7 +85,6 @@ ul {
   list-style-position: left;
   padding-right: 0px;
   width: 5px;
-  ;
 }
 
 .footer-nav-link:after {
@@ -97,8 +96,8 @@ ul {
   padding: 0;
 }
 
-.header-nav a { 
-  color: #A9A9A9;
+.header-nav a {
+  color: #a9a9a9;
   position: left;
   padding-right: 10px;
 }
@@ -110,18 +109,18 @@ ul {
 }
 
 .page-header {
-  font-family:'Manrope', sans-serif;
-  font-weight:100;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 100;
 }
 
 .page-header h1 {
   font-weight: 200;
-  font-family:'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: tomato;
   letter-spacing: 2px;
 }
 
 .page-header h2 {
   font-weight: 100;
-  font-family:'Manrope', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
