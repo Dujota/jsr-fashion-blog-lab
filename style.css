@@ -4,6 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
     max-width: 1000px;
     margin: auto;
+    font-weight: 200;
 }
 header{
     padding: 1rem 2rem;
@@ -18,9 +19,10 @@ h1{
     color: tomato;
     font-size: 75px;
     margin-bottom: 0px;
+    font-weight: 350;
 }
 h2{
-    font-weight: bold;
+    font-weight: 200;
     font-size: 32px;
     margin-top: 10px;
 }
@@ -58,15 +60,19 @@ ul{
     border-right: 1px solid lightgray;
     padding: 5px;
 }
+.footer-anchor-last{
+    color: tomato;
+    padding: 5px;
+}
 .article-title{
     font-size: 47px;
-    font-weight: bold;
+    font-weight: 350;
 }
 .cont{
     color: tomato;
     text-align: right;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 25px;
+    font-weight: bold;
 }
 article{
     margin-top: 4rem;
@@ -80,4 +86,6 @@ p::first-letter{
 }
 h4{
     color: lightgray;
+    font-size: 20px;
+    font-weight: 300;
 }
