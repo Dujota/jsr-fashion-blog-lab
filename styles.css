@@ -77,6 +77,7 @@ ul {
   padding: 0;
   margin: 0;
   color: #de7e5d;
+  text-decoration: none;
 }
 
 .footer-nav li {
@@ -90,6 +91,7 @@ ul {
 .footer-nav-link:after {
   content: '|';
   padding: 0 5px;
+  color: #a9a9a9;
 }
 
 .footer-nav-link::before {
