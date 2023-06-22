@@ -17,7 +17,15 @@ header, main, footer {
     padding-right: 2rem;
 
 }
+header ul{
+    display:flex;
+    justify-content: space-evenly;
+}
 
+footer ul{
+    display:flex;
+    justify-content: space-around;
+}
 h1 {
     color: tomato;
 }
@@ -35,5 +43,24 @@ nav {
 }
 
 .blogpost {
-    font-size: 20px;
+    font-size: 35px;
+    color:black;
+    font-family: Arial;
+}
+
+.cont {
+    text-align:right;
+    color: tomato;
+    font-weight:bold;
+    
+}
+
+article p::first-letter {
+    font-size:400%;
+    color:lightgray;
+}
+
+.copy {
+    color:lightgrey;
+    font-size: 15px;
 }
