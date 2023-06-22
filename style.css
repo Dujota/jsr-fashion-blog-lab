@@ -1,0 +1,66 @@
+html {
+    border: 5px;
+    color: lightgray;
+}
+
+body {
+    min-height: 100%;
+    font-family: sans-serif;
+    max-width: 1000px;
+
+}
+
+header, main, footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+header ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    display:flex;
+    justify-content: space-around;
+}
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.blogpost {
+    font-size: 35px;
+    color:black;
+    font-family: Arial;
+}
+
+.cont {
+    text-align:right;
+    color: tomato;
+    font-weight:bold;
+    
+}
+
+article p::first-letter {
+    font-size:400%;
+    color:lightgray;
+}
+
+.copy {
+    color:lightgrey;
+    font-size: 15px;
+}
