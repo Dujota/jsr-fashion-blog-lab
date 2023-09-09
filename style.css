@@ -1,12 +1,13 @@
 html {
-    border: 5px;
-    color: lightgray;
+    border-left: 5px solid lightgrey;
+
 }
 
 body {
     min-height: 100%;
     font-family: sans-serif;
     max-width: 1000px;
+    margin: auto;
 
 }
 
@@ -22,10 +23,6 @@ header ul{
     justify-content: space-evenly;
 }
 
-footer ul{
-    display:flex;
-    justify-content: space-around;
-}
 h1 {
     color: tomato;
 }
@@ -34,18 +31,29 @@ img {
     width: 100%;
 }
 
-ul {
-    list-style-type: none;
-}
-
 nav {
     justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+.header_anchortags {
+    color: lightgray;
 }
 
 .blogpost {
     font-size: 35px;
     color:black;
     font-family: Arial;
+}
+
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
 }
 
 .cont {
@@ -55,9 +63,23 @@ nav {
     
 }
 
-article p::first-letter {
-    font-size:400%;
+footer ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.footer_anchortags {
+    color: tomato;
+    text-decoration: none;
+}
+
+.firstletter {
+    float:initial;
+    font-size: 100px;
+    font-family: Arial, sans-serif;
     color:lightgray;
+
 }
 
 .copy {
